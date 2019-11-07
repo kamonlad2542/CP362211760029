@@ -43,20 +43,16 @@ public class jipata {
                     break;
                 default:
                     System.out.println("Please, select 1-4.");
-            }
-        }while (select < 1 || select > 4) ;
+                    public static void main(String[] args){
 
-    }
-
-    private static void WorkingWithArray() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("\t1. Array 1D");
-        System.out.println("\t2. Array 2D");
-        System.out.print("\tSelect: ");
-        int select = sc.nextInt();
-        if (select ==1)
-            Array1D();
-        else Array2D();
+                        private static void WorkingWithArray() {
+                      Scanner SC = new Scanner(System.in);
+                      if (select ==1)
+                          System.out.println("\t2. Array 2D");
+                        System.out.print("\tSelect: ");
+                        int select = SC.nextInt();
+                          Array1D();
+                      else Array2D();
 
     }
 
